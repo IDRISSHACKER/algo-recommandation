@@ -1,6 +1,6 @@
 # algo-recommandation
 Algorithme de recommandation user et item based en javascript
-``
+```
 const generateUsers = (_users, _books) => {
 
     const user = {}
@@ -37,5 +37,5 @@ const recommanded_users = (_user, _users, func = algo_sim) => {
 const users = generateUsers(10, 5);
 
 console.log(recommanded_users("P0", users))
-``
+```
 
